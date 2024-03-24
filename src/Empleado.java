@@ -10,5 +10,16 @@ public class Empleado {
         this.surname=surname;
         this.salario=salario;
     }
+    public float getSalarioAnual(float salario){
+        return salario *13;
+    }
+    public float aumentoSalario(float porcentaje){
+
+        return salario += (salario*porcentaje)/100;
+    }
+
+    public void getEmpleado(Empleado e){
+        System.out.println("Empleado: DNI: "+e.dni+", Nombre: "+ e.name+ ", Apellido: "+ e.surname+", salario: "+e.salario);
+    }
 
 }

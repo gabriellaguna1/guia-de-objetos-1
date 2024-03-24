@@ -19,11 +19,13 @@ public class Rectangulo {
         return(2*ancho)+(2*alto);
     }
     public void setAncho(float ancho) {
+
         this.ancho = ancho;
     }
 
     public void setAlto(float alto) {
         this.alto = alto;
     }
+
 
 }
